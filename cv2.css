@@ -9,7 +9,7 @@
 
 html, body {
 	height: 100%;
-	background-image: radial-gradient(circle at center, rgb(143, 129, 232), #200f82);
+	background-image: url(./images/ep_naturalwhite.png);
 }
 
 img{
@@ -85,7 +85,7 @@ ul{
 #corps{
 	font-size: 150%;
 	position: relative;
-	text-align: justify-all;
+	text-align: center;
 	height: 80%;
 	margin-top: 10%;
     font-family: 'Allerta', sans-serif;
@@ -107,6 +107,11 @@ ul{
 	font-weight: bold;
 }
 
+#color{
+	color: #930B23;
+	font-family: 'Allerta', sans-serif;
+	font-size: 120%;
+}
 @media screen and (max-height: 640px) {
 	*{
 		font-size: 80%;
